@@ -149,9 +149,19 @@ a {
       color: #000; }
 
 .btn-brown{
-  color: #fff;
-  background-color: rgba(254, 103, 0, 0.7);
+  color: #fe6700;
+  background-color: transparent;
+  border: 1px solid #fe6700;
   /*border-color: rgba(254, 103, 0, 0.4);*/
+}
+
+.btn-orange{
+  color: #fff;
+  background-color: #fe6700;
+}
+
+.btn-orange:hover{
+  color: #fff;
 }
 
 .btn-brown1{
