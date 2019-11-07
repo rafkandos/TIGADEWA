@@ -14,8 +14,12 @@ body {
   background: #000;
   color: #fff; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h4 {
   font-family: 'Oswald', sans-serif; }
+
+h6{
+  font-family: 'Segoe UI';  
+}
 
 a {
   -webkit-transition: .3s all ease;
@@ -460,7 +464,7 @@ a {
             padding: 5px 20px;
             display: block; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
-              color: #e3c4a8; }
+              color: #fe6700; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > a:before {
             content: "\e315";
             right: 20px; }
@@ -555,7 +559,7 @@ a {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li.active > a {
-        color: #e3c4a8; }
+        color: #fe6700; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -1924,4 +1928,11 @@ figure figcaption {
   width: 75%;
   height: 300px;
   justify-content: center;
+}
+
+.trip{
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  border-bottom: 2px solid white;
 }

@@ -27,10 +27,17 @@
     <link rel="stylesheet" href="css/style.css">
     
   </head>
-  <body>
 
-  
-    
+  <style type="text/css">
+    h6:hover{
+      cursor: pointer;
+    }
+    .bt-hr{
+      border-top: 1px solid #fe6700;
+    }
+  </style>
+
+  <body>
   
   <div class="site-wrap">
 
@@ -55,28 +62,9 @@
                   <li >
                     <a href="index.html">Home</a>
                   </li>
-                  <li><a href="packages.html">Packages</a></li>
+                  <li><a href="trip.html">Trip</a></li>
                   <li><a href="gallery.html">Gallery</a></li>
                   <li><a href="about.html">About</a></li>
-
-                  <!-- <li class="has-children">
-                    <a href="apartments.html">Apartments</a>
-                    <ul class="dropdown arrow-top">
-                      <li><a href="#">Apartments</a></li>
-                      <li><a href="#">Rooms</a></li>
-                      <li><a href="#">Suites</a></li>
-                      <li class="has-children">
-                        <a href="#">Sub Menu</a>
-                        <ul class="dropdown">
-                          <li><a href="#">Menu One</a></li>
-                          <li><a href="#">Menu Two</a></li>
-                          <li><a href="#">Menu Three</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> -->
-                  <!-- <li><a href="contact.html">Contact</a></li> -->
-                  <li><a href="regist.html">Registration</a></li>
                 </ul>
               </nav>
             </div>
@@ -110,59 +98,164 @@
 
   <div class="site-section">
       <div class="container">
+        <ul class="list-inline mt-5 text-center">
+          <li id="openTrip" class="list-inline-item mr-3" 
+            style="border-bottom: 2px solid #fe6700; color: #fe6700">
+            <h6 class="text-center" onclick="overview()">OVERVIEW</h6>
+          </li>
+          <li id="privateTrip" class="list-inline-item mr-3" 
+            style="border-bottom: 2px solid #000; color: #000;">
+            <h6 class="text-center" onclick="itinerary()">ITINERARY</h6>
+          </li>
+          <li id="privateTrip" class="list-inline-item mr-3" 
+            style="border-bottom: 2px solid #000; color: #000;">
+            <h6 class="text-center" onclick="priceDetail()">PRICE DETAIL</h6>
+          </li>
+          <li id="privateTrip" class="list-inline-item mr-3" 
+            style="border-bottom: 2px solid #000; color: #000;">
+            <h6 class="text-center" onclick="preparation()">PREPARATION</h6>
+          </li>
+          <li id="privateTrip" class="list-inline-item mr-3" 
+            style="border-bottom: 2px solid #000; color: #000;">
+            <h6 class="text-center" onclick="gearList()">GEAR LIST</h6>
+          </li>
+        </ul>
+      </div>
+      <div id="overviewContent" class="container mt-5">
+        <div class="row mt-5">
+          <div class="col-md-10 site-section-heading mb-5 w-border col-md-6 mx-auto" data-aos="fade-up">
+            <h2 class="mb-4 align-items-center">OVERVIEW</h2>
+            <p style="float: left;">Mount Kilimanjaro (5,895m) look very elegant with a tropical snow-cap fully stretch on the bluish peak that rises high above the savannah, forest, and a herd of wildlife. This is the classic picture of Kilimanjaro that usually seen in the public media and was taken from Amboseli National Park, Kenya, at the north of it.</p>
+            <p style="float: left;">The volcanic area of Kilimanjaro is so big, 3,200 km2. And standing on a high plateau of 1,000m. In the beginning, there are three active volcanoes here. Shira on the west, Kibo on the middle, and Mawenzi on the east. Over geological time, Shira die out first, then followed by Mawenzi while Kibo still in the formation process until 450,000 years ago. If Shira crater collapsed and eroded by glacier, forming a vast plateau; the erosion of glacier on Mawenzi (5,149m) makes an impressive form. It carved many sharp towers as high as 600m. The Mawenzi crater on the east side already collapsed.</p>
+            <p style="float: left;">Kibo crater also already collapsed and leaves a bottom of the crater with a diameter of 2,5 km wide. And about 100,000 years ago, the west side of the crater rim collapsed makes a huge gap that called Western Breach. Kibo Peak (Kilimanjaro peak) was the remaining part of the south side rim. The same fate with Carstensz Pyramid in Indonesia, the retreat of tropical snow on Kilimanjaro is in an alarming state. The snow on the east rim has disappeared. On the south and west remains a little. Only on the north side that still have a lot of glacier and snowfield, especially in July and August.</p>
+          </div>
+        </div>
+      </div>
+      <div id="itineraryContent" class="container mt-5">
+        <div class="row mt-5">
+          <div class="col-md-10 site-section-heading mb-5 text-center w-border col-md-6 mx-auto" data-aos="fade-up">
+            <h2 class="mb-4">ITINERARY</h2>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-3 text-center">
+                <h4><span style="border-top: 1px solid #fe8700">DAY 1</span></h4>
+              </div>
+              <div class="col-md-6 col-lg-9">
+                <p style="border-top: 1px solid #fe8700">LOrem ipsum dolor sit amet mbo aku agaero terusan e mbao ahsahdkjhakjh</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div id="hiddenSec" class="site-section border-bottom" style="margin-top: -150px; display: none;">
+      <div class="container">
         <div class="row">
+
           <div class="site-section-heading text-center mb-5 w-border col-md-7 mx-auto" data-aos="fade-up">
-            <h2 class="mb-3 mt-4">PACKAGES 1 - (Semeru Mountain)</h2>
+            <h2 class="mb-3 mt-4">Registration Form</h2>
             <!-- 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt officia, error reiciendis ab quod?</p> -->
 
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-lg-6 mb-3">
-            <img src="images/semerumlg.jpg" alt="paket1" style="margin-top: 90px;" class="img-fluid">  
+    
+          <div class="col-md-12 mb-5">
+    
+            <form action="#" class="contact-form">
+              
+              <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="selitem">Selected Packages</label>
+                  <input type="text" id="selitem" name="selitem" class="form-control" value="PACKAGES 1 - (SEMERU MOUNTAIN)" readonly="true">
+                  <input type="hidden" name="pack" id="pack" value="pack1">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="fullname">Full Name</label>
+                  <input type="text" id="fullname" name="fullname" class="form-control">
+                </div>
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="idno">Identity Number</label>
+                  <input type="text" id="idno" name="idno" class="form-control">
+                  </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-6">
+                  <label class="font-weight-bold" for="gender">Gender</label> <br>
+                  <div class="custom-control custom-radio custom-control-inline mt-2">
+                    <input type="radio" id="customRadioInline1" name="gender" class="custom-control-input" value="men">
+                    <label class="custom-control-label" for="customRadioInline1">Men</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="gender" class="custom-control-input" value="women">
+                    <label class="custom-control-label" for="customRadioInline2">Women</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label class="font-weight-bold" for="country">Country</label>
+                  <input type="text" id="country" class="form-control" name="country">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-6">
+                  <label class="font-weight-bold" for="province">Province</label>
+                  <input type="text" id="province" class="form-control" name="province">
+                </div>
+                <div class="col-md-6">
+                  <label class="font-weight-bold" for="city">City</label>
+                  <input type="text" id="province" class="form-control" name="city">
+                </div>
+              </div>
+    
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="font-weight-bold" for="address">Full Address</label>
+                  <input type="text" name="address" id="address" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-6">
+                  <label class="font-weight-bold" for="email">Email</label>
+                  <input type="email" name="email" id="email" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label class="font-weight-bold" for="tees_size">Tees Size</label>
+                  <select class="custom-select">
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-6">
+                  <label class="font-weight-bold" for="phone_number">Phone Number</label>
+                  <input type="number" id="phone_number" class="form-control" name="phone_number">
+                </div>
+                <div class="col-md-6">
+                  <label class="font-weight-bold" for="emergency_contact">Emergency Contact</label>
+                  <input type="number" id="emergency_contact" class="form-control" name="emergency_contact">
+                </div>
+              </div>
+    
+              <div class="row form-group mt-5">
+                <div class="col-md-12">
+                  <input type="submit" value="SUBMIT" class="btn btn-brown font-weight-bold" style="width: 100%">
+                </div>
+              </div>
+    
+    
+            </form>
           </div>
-          <div class="col-md-12 col-lg-6 mb-3">
-            <div class="site-section-heading" data-aos="fade-up">
-              <!-- <h3 class="text-center mb-3" style="color: #fe6700">OUR SCHEDULES</h3> -->
-              <p>
-                <strong><span style="font-size: 17pt;">Day 1</span></strong> <br>
-                <strong>08.00 – 09.00</strong> : Meeting Point Stasiun Malang <br>
-                <strong>09.00 – 09.30</strong> : Malang – Tumpang Homestay <strong>(Makan 1)</strong> <br>
-                <strong>09.30 – 11.00</strong> : Perjalanan Menuju Ranupane <br>
-                <strong>11.00 – 14.00</strong> : ISHOMA, Persiapan Pendakian <br>
-                <strong>14.00 – 18.00</strong> : Ranupane – Ranukumbolo <strong>(Camp 1)</strong> <br>
-                <strong>18.00 – XX.XX</strong> : ISHOMA, Acara Bebas (Dinner) <br>
-                <strong><span style="font-size: 17pt;">Day 2</span></strong> <br>
-                <strong>04.00 – 07.00</strong> : Bangun Pagi, Sarapan, Enjoy Sunrise Ranukumbolo (Breakfast) <br>
-                <b>07.00 – 08.00</b> : Packing <br>
-                <b>08.00 – 14.00</b> : Ranukumbolo – Kalimati <b>(Camp 2)(Lunch/Dinner)</b> <br>
-                <b>04.00 – 00.00</b> : Acara Bebas, ISHOMA <br>
-                <strong><span style="font-size: 17pt;">Day 3</span></strong> <br>
-                <b>00:00 – 00.30</b> : Bangun, Sarapan dan Prepare Summit Attack <b>(Sarapan Summit)</b> <br>
-                <b>00:30 – 05.30</b> : Kalimati - Puncak <br>
-                <b>05:30 – 07.00</b> : Enjoy Puncak Semeru <br>
-                <b>07:00 – 10.00</b> : Puncak - Kalimati <br>
-                <b>10:00 – 14.00</b> : ISHOMA, Packing Turun <b>(Lunch)</b> <br>
-                <b>14:00 – 16.00</b> : Kalimati – Ranukumbolo <b>(Camp 3)</b> <br>
-                <b>16:00 – XX.XX</b> : ISHOMA, Acara Bebas <b>(Dinner)</b> <br>
-                <strong><span style="font-size: 17pt;">Day 4</span></strong> <br>
-                <b>05:00 – 08:00</b> : Bangun, Sarapan, Persiapan Packing Turun <b>(Breakfast)</b> <br>
-                <b>08:00 – 12.00</b> : Ranukumbolo - Ranupane <br>
-                <b>12:00 – 13.00</b> : Makan, Bersih Bersih <br>
-                <b>13:00 – 14.30</b> : Perjalanan Ranupane – Tumpang Homestay <b>(Makan 2)</b> <br>
-                <b>14:30 – 15.30</b> : Packing Pulang <br>
-                <b>15:30 – 16.30</b> : Perjalanan Tumpang – Stasiun Malang <br>
-                <b>16:30</b> : Trip Selesai <br>
-              </p>
-            </div>
-          </div>
         </div>
-        <div class="text-center mt-3">
-          <a href="regist.html" class="btn btn-orange" style="width: 500px;">Get Packages Now</a>
-        </div>
-    </div>  
-  
+      </div>
   </div>
 
   <div class="bg-prm mt-3">
@@ -329,6 +422,16 @@
         }
     });
   </script> -->
+  <script type="text/javascript">
+    function funcHidden() {
+      var x = document.getElementById("hiddenSec");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
     
   </body>
 </html>
