@@ -82,7 +82,9 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="400">
-          <h1 class="mb-4" style="color: #fe6700; font-weight: bold;">PANDERMAN MOUNTAIN</h1>
+          <h1 id="first" class="mb-4" style="color: #fe6700; font-weight: bold;">PANDERMAN MOUNTAIN</h1>
+          <a href="trip1.html#eng">English</a>
+          <a href="#id">Indonesia</a>
         </div>
       </div>
     </div>
@@ -318,6 +320,34 @@
             nav.style.backgroundColor = 'transparent';
         }
     });
+
+    var haha = document.querySelectorAll("[oina]");
+
+    var lang = {
+      eng: {
+        hi: "PANDERMAN MOUNTAIN"
+      },
+      id: {
+        hi: "gunung panderman"
+      }
+    };
+
+    if (window.location.hash){
+      if (window.location.hash === "#id") {
+        first.textContent = lang.id.hi;
+        
+      }
+    }
+
+    function halo() {
+      location.reload(true);
+    }
+
+    // for (i = 0; i <= 100; i++) {
+    //   haha[i].onclick = function() {
+    //     location.reload();
+    //   };
+    // }
   </script>
     
   </body>

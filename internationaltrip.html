@@ -27,14 +27,26 @@
     <link rel="stylesheet" href="css/style.css">
     
   </head>
+
+  <style type="text/css">
+    h6:hover{
+      cursor: pointer;
+    }
+    .c-point:hover{
+      cursor: pointer;
+    }
+  </style>
+
   <body>
 
+  
   <div class="site-wrap">
 
     <nav class="site-navbar">
         <div class="container py-1">
           <div class="row align-items-center">
             <div class="col-8 col-md-8 col-lg-4">
+              
               <a href="index.html">
                 <img src="images/tigadewa1.png" style="width: 250px;">
               </a>
@@ -48,17 +60,16 @@
                   <li>
                     <a href="index.html">Home</a>
                   </li>
-                  <li class="has-children">
+                  <li class="has-children active">
                     <a href="#">Trip</a>
                     <ul class="dropdown arrow-top">
                       <li><a href="opentrip.html">Open Trip</a></li>
                       <li><a href="privatetrip.html">Private Trip</a></li>
                       <li><a href="internationaltrip.html">International Trip</a></li>
-                      
                     </ul>
                   </li>
                   <li><a href="gallery.html">Gallery</a></li>
-                  <li class="has-children active">
+                  <li class="has-children">
                     <a href="#">About</a>
                     <ul class="dropdown arrow-top">
                       <li><a href="aboutus.html">About us</a></li>
@@ -88,56 +99,81 @@
       <div class="site-mobile-menu-body"></div>
     </div>
     
-    <div class="site-blocks-cover overlay" style="background-image: url('images/mount5a.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="200">
-            <h1 class="mb-4" style="color: #fe6700; font-weight: bold;">CONTACT US</h1>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('images/mount2.jpg');"
+    data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="400">
+          <h1 class="mb-4" style="color: #fe6700; font-weight: bold;">Trip &amp; Events</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="site-section">
-      <div class="container">
-        <img src="images/tigadewa.jpg" class="images img-fluid">
+  <div class="site-section" style="margin-top: -20px;">
+    <div class="container">
+
+      <div id="openItem" style="display: block;">
         <div class="row mt-5">
-          <div class="site-section-heading mt-4 w-border col-md-12 col-lg-6 mx-auto" data-aos="fade-up">
-            <h2 class="mb-4">Adress</h2>
-            <h5>Jalan Merpati Timur RT 09 RW 09 No. 31 <br> Pedurungan Tengah Semarang</h5>
-          </div>
-          <div class=" site-section-heading mt-4 w-border col-md-12 col-lg-6 mx-auto" data-aos="fade-up">
-            <h2 class="mb-4">WhatsApp</h2>
-            <h5>0821-4118-5741</h5>
-            <h5>0813-3772-7343</h5>
+          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <h2 class="mb-5">It's International Trip</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt officia, error reiciendis ab quod?</p>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="site-section-heading mt-4 w-border col-md-12 col-lg-6 mx-auto" data-aos="fade-up">
-            <h2 class="mb-4">Instagram</h2>
-            <h5>Official <a href="https://www.instagram.com/tigadewaadventureindonesia/">@tigadewaadventureindonesia</a></h5>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 mb-3 mb-lg-5">
+            <div class="team-2one">
+              <a href="pack1.html"><img src="images/semerumlg.jpg" alt="Image" class="img-fluid"></a>
+              <!-- <div class="text">
+                <h2 class="fwb2 h5">Meeting Point Malang</h2>
+                <div class="row">
+                  <div class="col-md-12 text-center" data-aos="fade-up">
+                    <button class="btn btn-brown1" onclick="pack1()">Get Detail</button>
+                  </div>
+                </div>
+              </div> -->
+            </div>
           </div>
-          <div class=" site-section-heading mt-4 w-border col-md-12 col-lg-6 mx-auto" data-aos="fade-up">
-            <h2 class="mb-4">Email</h2>
-            <h5>tigadewaadventureindonesia@gmail.com</h5>
+
+          <div class="col-md-6 col-lg-4 mb-3 mb-lg-5">
+            <div class="team-2one">
+              <a href="pack1.html"><img src="images/semerumlg.jpg" alt="Image" class="img-fluid"></a>
+              <!-- <div class="text">
+                <h2 class="fwb2 h5">Meeting Point Jakarta</h2>
+                <div class="row">
+                  <div class="col-md-12 text-center mt-3" data-aos="fade-up">
+                    <button class="btn btn-brown1" onclick="pack2()">Get Detail</button>
+                  </div>
+                </div>
+              </div> -->
+            </div>
           </div>
-        </div>
-        <div class="row mt-5">
-          <div class="site-section-heading mt-4 w-border col-md-12 mx-auto" data-aos="fade-up">
-            <h2 class="mb-4">Transfer</h2>
-            <h5>Bank BRI : <span style="color: #fe6700">1451-01-000764-53-5</span></h5>
-            <h5>Bank Mandiri : <span style="color: #fe6700">135-00-1504158-3</span></h5>
-            <h5>Bank BNI Syariah : <span style="color: #fe6700">06-8665-6552</span></h5>
-            <h5>Bank BCA : <span style="color: #fe6700">854-531-9639</span></h5>
-            <h5>Atas Nama <span style="color: #fe6700">Muhammad Rifqi Maulana</span></h5>
+
+          <div class="col-md-6 col-lg-4 mb-3 mb-lg-5">
+            <div class="team-2one">
+              <a href="pack1.html"><img src="images/semerumlg.jpg" alt="Image" class="img-fluid"></a>
+              <!-- <div class="text">
+                <h2 class="fwb2 h5">Meeting Point Bandung</h2>
+                <div class="row">
+                  <div class="col-md-12 text-center mt-3" data-aos="fade-up">
+                    <button class="btn btn-brown1" onclick="pack3()">Get Detail</button>
+                  </div>
+                </div>
+              </div> -->
+            </div>
           </div>
-          </div>
+
         </div>
       </div>
-    </div>
 
-    <div class="bg-prm" style="margin-top: 100px;">
+    </div>
+      
+  </div>
+
+  <div class="bg-prm">
       <div class="container">
         <div class="row text-center">
           <!-- <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-facebook text-white"></span></a>
@@ -254,6 +290,7 @@
             nav.style.backgroundColor = 'transparent';
         }
     });
+
   </script>
     
   </body>
