@@ -91,8 +91,8 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="200">
-            <h1 class="mb-4" style="color: #fe6700; font-size: 45pt;font-weight: bold;">you will never hike alone</h1>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <h1 class="mb-4" style="color: #fe6700; font-size: 40pt;font-weight: bold;">you will never hike alone</h1>
+            <!-- <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
             <a href="#" class="mt-5 pt-2 pb-2 btn btn-orange font-weight-bold" data-toggle="modal" data-target="#exampleModal"
               style="width: 180px">BOOK NOW</a>
           </div>
@@ -100,22 +100,47 @@
       </div>
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          ...
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-12 col-lg-4 ml-auto text-center">
+                <a href="opentrip.html" class="btn btn-hai text-uppercase font-weight-bold mt-1">
+                  <span class="icon-unlock" style="font-size: 30px;"></span><br>
+                  Open trip
+                </a>
+              </div>
+              <div class="col-md-12 col-lg-4 ml-auto text-center">
+                <a href="privatetrip.html" class="btn btn-hai text-uppercase font-weight-bld mt-1">
+                  <span class="icon-lock" style="font-size: 30px;"></span><br>
+                  Private Trip
+                </a>
+              </div>
+              <div class="col-md-12 col-lg-4 ml-auto text-center">
+                <a href="internationaltrip.html" class="btn btn-hai text-uppercase font-weight-bld mt-1">
+                  <span class="icon-flag" style="font-size: 30px;"></span><br>
+                  International Trip
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          
+          
         </div>
-        <div class="modal-footer justify-content-center">
-          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+        <!-- <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <a href="opentrip.html" class="btn btn-brown text-uppercase">Go to Trip</a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -348,12 +373,8 @@
     <div class="bg-prm" style="margin-top: 100px;">
       <div class="container">
         <div class="row text-center">
-          <!-- <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-facebook text-white"></span></a>
-          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-twitter text-white"></span></a> -->
           <a href="#" class="col-6 text-center py-4 social-icon d-block"><span class="icon-instagram text-white"></span></a>
           <a href="#" class="col-6 text-center py-4 social-icon d-block"><span class="icon-whatsapp text-white"></span></a>
-          <!-- <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-pinterest text-white"></span></a>
-          <a href="#" class="col-2 text-center py-4 social-icon d-block"><span class="icon-youtube text-white"></span></a> -->
         </div>
       </div>
     </div>
@@ -372,17 +393,27 @@
               <div class="col-md-12">
                 <h3 class="footer-heading mb-4">Navigations</h3>
               </div>
-              <div class="col-md-6 col-lg-6">
+              <div class="col-md-6 col-lg-4">
                 <ul class="list-unstyled">
                   <li><a href="index.html">Home</a></li>
                   <li><a href="opentrip.html">Open Trip</a></li>
                   <li><a href="privatetrip.html">Private Trip</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="internationaltrip.html">International</a></li>
                 </ul>
               </div>
-              <div class="col-md-6 col-lg-6">
+              <div class="col-md-6 col-lg-4">
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="ourguides.html">Our Guides</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="partners.html">Partners</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="merchantdise.html">Merchantdise</a></li>
                 </ul>
               </div>
             </div>
@@ -391,40 +422,21 @@
 
           </div>
 
-          <div class="col-lg-4">
-            <div class="mb-5">
-              <h3 class="footer-heading mb-4">Subscribe</h3>
-              <form action="#" method="post" class="site-block-subscribe">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary bg-transparent" placeholder="Enter your email"
-                    aria-label="Enter Email" aria-describedby="button-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-brown rounded-top-right-0" type="button" id="button-addon2">Subscribe</button>
-                  </div>
-                </div>
-              </form>
-            </div>
+          <div class="col-lg-3">
+            </div> -->
+            <h3 class="footer-heading mb-4">Social Media</h3>
+              <div>
+                <a href="#" class="pl-0 pr-3"><span class="icon-instagram" style="font-size: 25px"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-whatsapp" style="font-size: 25px"></span></a>
+              </div>
           </div>
           
         </div>
 
-            <div class="row mt-3">
-              <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Follow Us</h3>
-
-                <div>
-                  <a href="#" class="pl-0 pr-3"><span class="icon-instagram"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-whatsapp"></span></a>
-                </div>
-              </div>
-            </div>
-
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
           

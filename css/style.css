@@ -166,6 +166,12 @@ a {
   /*border-color: rgba(254, 103, 0, 0.4);*/
 }
 
+.btn-hai{
+  color: #fe6700;
+  background-color: transparent;
+  border: 1.5px solid #fe6700;
+}
+
 .btn-orange{
   color: #fff;
   background-color: #fe6700;
@@ -182,6 +188,12 @@ a {
 }
 
 .btn-brown:hover{
+  color: #fff;
+  background-color: #fe6700;
+  border-color: #fe6700;
+}
+
+.btn-hai:hover{
   color: #fff;
   background-color: #fe6700;
   border-color: #fe6700;
